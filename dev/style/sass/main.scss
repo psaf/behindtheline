@@ -64,8 +64,30 @@ section {
 	}
 }
 
+.clients {
+	img {
+		opacity: .5;
+		transition: all .5s;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
 footer {
-	max-height: 300px;
-	height: 300px;
+
+	max-height: 350px;
+	height: 350px;
+	padding-top: 2em;
 	background: #333;
+
+	.nav, .contact {
+		color: #ccc;
+	}
+
+	.contact {
+		margin-top: 0px;
+		border-left: 1px solid #ccc;
+	}
 }
