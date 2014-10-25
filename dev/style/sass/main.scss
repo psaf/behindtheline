@@ -1,6 +1,10 @@
+body {
+	padding-top: 60px;
+}
+
 header {
-	max-height: 400px;
-	height: 400px;
+	max-height: 50vh;
+	height: 50vh;
 	overflow: hidden;
 
 	img {
@@ -18,17 +22,47 @@ section {
 	h1 {
 		height: 100px;
 		margin-bottom: 1em;
-		background: #ecf0f1;
+		
+		color: #fff;
+
 		font-weight: 700;
 		line-height: 100px;
 		letter-spacing: .09em;
 		text-transform: uppercase;
+	
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#initiatives {
+	h1 {
+		background-image: url(../images/bgs/1.jpg);
+	}
+}
+
+#services {
+	h1 {
+		background-image: url(../images/bgs/2.jpg);
+	}
+}
+
+#about {
+	h1 {
+		background-image: url(../images/bgs/3.jpg);
+	}
+}
+
+#clients {
+	h1 {
+		background-image: url(../images/bgs/4.jpg);
 	}
 }
 
 .initiatives {
 	a, img {
-		border-radius: 50%;
+		// border-radius: 50%;
 	}
 
 	img {
