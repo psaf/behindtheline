@@ -36,7 +36,8 @@ section h1 {
   background-image: url(../images/bgs/4.jpg); }
 
 .initiatives img {
-  width: 100%; }
+  width: 200px;
+  height: 200px; }
 
 .service h2 {
   text-transform: uppercase; }
